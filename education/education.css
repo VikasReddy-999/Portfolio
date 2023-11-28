@@ -1,0 +1,30 @@
+Custom Styles
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.education-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.education-section h2 {
+    margin-bottom: 10px;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-warning {
+    color: #ffc107 !important;
+}
+
+.text-success {
+    color: #28a745 !important;
+}
