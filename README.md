@@ -22,7 +22,7 @@ This React personal portfolio is designed to highlight my accomplishments, skill
 
 You can check out the live demo [here](#).
 
-![Portfolio Demo](/path/to/portfolio-screenshot.png)
+![Portfolio Demo](./public/assets/screen-shots/home.png)
 
 ## Features
 
