@@ -2,18 +2,6 @@
 
 Welcome to my personal portfolio built with React! This project showcases my skills, projects, and provides an overview of who I am.
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Demo](#demo)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## Overview
 
 This React personal portfolio is designed to highlight my accomplishments, skills, and projects. It is a dynamic and responsive web application that provides an easy-to-navigate experience for visitors.
@@ -36,4 +24,4 @@ You can check out the live demo [here](#).
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/Mansoor-P/responsive-portfolio-2?tab=readme-ov-file.git
