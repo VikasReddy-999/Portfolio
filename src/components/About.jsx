@@ -4,10 +4,10 @@ function About() {
   return (
     <div
       id="about"
-      className="py-3 m-0"
+      className="py-3 mt-4 mb-4"
       style={{ backgroundColor: "rgb(233, 236, 239)" }}
     >
-      <div className="container mt-4 py-5"> 
+      <div className="container mt-4 py-5">
         <div className="row mt-4">
           <div className="col-md-6 col-lg-5 mb-4 mb-md-0">
             <img
