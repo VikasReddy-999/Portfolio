@@ -8,7 +8,7 @@ This React personal portfolio is designed to highlight my accomplishments, skill
 
 ## Demo
 
-You can check out the live demo [here](#).
+You can check out the live demo [here](https://mansoorsportfolio.netlify.app/).
 
 ![Portfolio Demo](./public/assets/screen-shots/home.png)
 
