@@ -1,26 +1,41 @@
-// Footer.jsx
 import React from "react";
 
 const Footer = () => {
   return (
-    <footer id="contact" className="mt-auto py-5 text-center" style={{ backgroundColor: "rgb(245, 245, 245)" }}>
+    <footer
+      id="contact"
+      className="mt-auto py-5 text-center"
+      style={{ backgroundColor: "rgb(245, 245, 245)" }}
+    >
       <div className="container">
         <h2 className="display-4 pb-3 text-center">Get In Touch</h2>
         <p className="lead text-center pb-3">
-          I'm currently looking for full-time Software Engineering  opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at,{" "}
-          <a className="text-decoration-none" href="mailto:mansoormunaf96522@gmail.com">
-            mansoormunaf96522@gmail.com
+          I'm currently looking for full-time Software Engineering
+          opportunities! If you know of any positions available, if you have any
+          questions, or if you just want to say hi, please feel free to email me
+          at,{" "}
+          <a
+            className="text-decoration-none"
+            href="mailto:mansoormunaf96522@gmail.com"
+          >
+            munaf6007@gmail.com .
           </a>
-          .
         </p>
         <i className="fas fa-code"></i> with <i className="fas fa-heart"></i> by{" "}
-        <a rel="noopener" href="https://github.com/hashirshoaeb" aria-label="My GitHub">
+        <a
+          rel="noopener"
+          href="https://github.com/hashirshoaeb"
+          aria-label="My GitHub"
+        >
           {" "}
           <span className="badge bg-dark">Mansoor P</span>
         </a>{" "}
         using <i className="fab fa-react"></i>
         <p>
-          <small className="text-muted">Project code is open source. Feel free to fork and make your own version.</small>
+          <small className="text-muted">
+            Project code is open source. Feel free to fork and make your own
+            version.
+          </small>
         </p>
       </div>
     </footer>

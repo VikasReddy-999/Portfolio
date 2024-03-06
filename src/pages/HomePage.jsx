@@ -8,7 +8,6 @@ import Skills from "../components/Skills";
 import Profile from "../components/Profile";
 import Projects from "../components/Projects";
 import { projectsData } from "../data.js";
-// import Contact from "../components/Contact";
 
 const HomePage = () => {
   return (
@@ -18,7 +17,6 @@ const HomePage = () => {
       <About/>
       <Skills/>
       <Projects projects={projectsData}/>
-      {/* <Contact/> */}
       <Footer/>
     </div>
   );

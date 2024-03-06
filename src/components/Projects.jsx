@@ -1,4 +1,3 @@
-// Projects.jsx
 import React from "react";
 import "../App.css";
 
@@ -38,7 +37,6 @@ const Projects = ({ projects }) => {
                   <LanguageBadge key={index} language={language} />
                 ))}
               </div>
-             
             </div>
           </div>
         </div>

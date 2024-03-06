@@ -30,7 +30,7 @@ function About() {
             <p className="text-center">
               <a
                 className="btn btn-outline-dark btn-lg"
-                href="https://drive.google.com/file/d/1IiaZyDoXDIM38-UGxEcnxSamJYq9snX2/view?usp=sharing"
+                href="https://drive.google.com/file/d/197u8F5NJD4kgCbhPROZm33KCpuR5k5dM/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer noopener"
                 role="button"

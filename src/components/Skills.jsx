@@ -5,21 +5,16 @@ const skillsData = [
   {
     category: "Frontend Development",
     skills: [
-      { name: "HTML"},
-      { name: "CSS"},
-      { name: "JavaScript"},
-      { name: "React"},
-      { name: "Bootstrap"},
+      { name: "HTML" },
+      { name: "CSS" },
+      { name: "JavaScript" },
+      { name: "React" },
+      { name: "Bootstrap" },
     ],
   },
   {
     category: "Backend Development",
-    skills: [
-      
-      { name: "JAVA"},
-      { name: "MY-SQL"},
-      { name: "Git"},
-    ],
+    skills: [{ name: "JAVA" }, { name: "MY-SQL" }, { name: "Git" }],
   },
 ];
 
