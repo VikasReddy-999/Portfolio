@@ -1,9 +1,12 @@
 #skills {
-  padding: 20px;
+  padding: 0px 20px;
   border-radius: 15px;
-  margin: 150px 10px 60px 10px;
+  min-height: 100vh; /* Set minimum height to 100vh */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .section-title {
   text-align: center;
   font-weight: 400;
@@ -13,6 +16,7 @@
 }
 
 .skills-container {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

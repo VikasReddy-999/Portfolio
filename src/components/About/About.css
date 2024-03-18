@@ -1,0 +1,58 @@
+#about {
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+}
+
+.mt-4 {
+  margin-top: 6.5rem !important;
+}
+.fs-3 h2 {
+  font-size: 50px;
+  overflow: hidden;
+  border-right: 2px solid #000;
+  white-space: nowrap;
+  animation: typing 3s steps(60, end) 1 forwards; /* Animation repeats 4 times and stops at the final state */
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.fs-3 h2 span {
+  font-size: 50px;
+  background: -webkit-linear-gradient(
+      135deg,
+      rgb(0, 255, 164),
+      rgb(166, 104, 255)
+    )
+    text;
+  -webkit-text-fill-color: transparent;
+}
+.profile-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 4px solid #ddd;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-height: 350px;
+}
+
+.about-content {
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .about-content,
+  .profile-image {
+    text-align: start;
+    margin: auto;
+  }
+}

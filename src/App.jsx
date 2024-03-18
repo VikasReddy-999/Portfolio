@@ -1,10 +1,19 @@
-import React from 'react';
-import './App.css'; 
-import HomePage from "./pages/HomePage";
+import React from "react";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer/Footer";
+
 function App() {
   return (
     <>
-    <HomePage/>
+      <Navbar />
+      <About />
+      <Skills />
+      <Projects />
+      <Footer />
     </>
   );
 }
