@@ -1,0 +1,31 @@
+.navbar-nav {
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 60px;
+  position: absolute;
+}
+.nav-link {
+  margin: 6px;
+  padding: 30px;
+}
+.nav-link:hover {
+  background: -webkit-linear-gradient(
+    135deg,
+    rgb(0, 255, 164),
+    rgb(166, 104, 255)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+@media (max-width: 750px) {
+  .navbar-nav {
+    position: absolute;
+
+    left: 50%;
+    margin: 0px 20px 20px 20px;
+    transform: translateX(-50%);
+    border-radius: 60px;
+  }
+}
