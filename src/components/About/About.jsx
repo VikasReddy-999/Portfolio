@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
-
+import { FaLinkedin } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
 function About() {
   return (
     <div id="about" className="py-3 m-0 bg-white">
@@ -20,10 +21,13 @@ function About() {
                   <h4>I'm a Software Developer.</h4>
                  <p> <span role="img" aria-label="email">📧 </span> mansoorpathikonda@gmail.com</p>
               </div>
-              <div className="social-icons"></div>
-              <p>
+              <div className="social-icons">
+                <a href="https://www.codechef.com/users/mansoor07"><FaLinkedin className="icon" /></a>
+                <a href="https://github.com/Mansoor-P"><BsGithub className="icon"/></a>
+              </div>
+              <p className="mt-2">
                 <a
-                  className="btn btn-outline-dark btn-lg"
+                  className="btn btn-outline-dark btn-lg "
                   href="https://drive.google.com/file/d/1IiaZyDoXDIM38-UGxEcnxSamJYq9snX2/view?usp=sharing"
                 >
                   Resume
