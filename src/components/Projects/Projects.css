@@ -16,15 +16,32 @@
 .custom-card {
   width: 100%;
   max-width: 600px;
+  margin-left: 40px;
 }
+
 .badge {
   border: 1px solid rgb(84, 221, 191);
   border-radius: 10px;
   margin-right: 10px;
 }
 
+/* Responsive styles */
 @media (min-width: 768px) {
   .custom-card {
     max-width: 800px;
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-card {
+    max-width: 100%;
+    border-radius: 0;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .badge {
+    margin-right: 5px;
+    margin-bottom: 5px;
   }
 }

@@ -8,7 +8,7 @@ const Footer = () => {
       className="mt-auto py-5 text-center"
       style={{ backgroundColor: "rgb(245, 245, 245)" }}
     >
-      <div className="container">
+      <div className="container footer">
         <h2 className="display-4 pb-3 text-center">Get In Touch</h2>
         <p className="lead text-center pb-3">
           I'm currently looking for full-time Software Engineering
