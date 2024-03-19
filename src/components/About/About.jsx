@@ -1,7 +1,11 @@
 import React from "react";
 import "./About.css";
+<<<<<<< HEAD
 import { FaLinkedin } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
+=======
+
+>>>>>>> version-2.0-react
 function About() {
   return (
     <div id="about" className="py-3 m-0 bg-white">
@@ -21,6 +25,7 @@ function About() {
                   <h4>I'm a Software Developer.</h4>
                  <p> <span role="img" aria-label="email">📧 </span> mansoorpathikonda@gmail.com</p>
               </div>
+<<<<<<< HEAD
               <div className="social-icons">
                 <a href="https://www.codechef.com/users/mansoor07"><FaLinkedin className="icon" /></a>
                 <a href="https://github.com/Mansoor-P"><BsGithub className="icon"/></a>
@@ -28,6 +33,12 @@ function About() {
               <p className="mt-2">
                 <a
                   className="btn btn-outline-dark btn-lg "
+=======
+              <div className="social-icons"></div>
+              <p>
+                <a
+                  className="btn btn-outline-dark btn-lg"
+>>>>>>> version-2.0-react
                   href="https://drive.google.com/file/d/1IiaZyDoXDIM38-UGxEcnxSamJYq9snX2/view?usp=sharing"
                 >
                   Resume

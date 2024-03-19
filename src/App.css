@@ -15,6 +15,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+<<<<<<< HEAD
 
 @keyframes typing {
   from {
@@ -24,3 +25,9 @@ a {
     width: 100%;
   }
 }
+=======
+#contact{
+  width: 100%;
+  margin-left: 30px;
+}
+>>>>>>> version-2.0-react

@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+.home-link {
+  font-size: 30px;
+  text-decoration: none;
+  color: #4a4e51;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.aboutme-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.left-section {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.right-section {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #3d3e42;
+  color: white;
+  padding: 10px;
+}
+
+.profile-section,
+.education-section {
+  width: 100%;
+
+  margin: 20px;
+  padding: 20px;
+}
+
+.picture-resume-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.picture-resume img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  z-index: -1;
+}
+
+.name-wrapper {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.name-wrapper h1 {
+  font-family: "Open Sans", sans-serif;
+  color: #4a4e51;
+  font-size: 44px;
+  margin: 0;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.list-titles {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  cursor: pointer;
+}
+
+.list-titles li {
+  font-family: "Open Sans", sans-serif;
+  color: #4a4e51;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.contact-presentation p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.education-title {
+  margin-bottom: 20px;
+}
+
+.education-title h2 {
+  color: #66cc99;
+}
+
+.section-wrapper {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.skills .skill {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutme-container {
+    flex-direction: column;
+    align-items: center;
+    width: 850px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .left-section,
+  .right-section {
+    flex-basis: 100%;
+  }
+  .right-section {
+    text-align: justify;
+  }
+
+  .profile-section,
+  .education-section {
+    max-width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  .picture-resume-wrapper {
+    flex-direction: column;
+  }
+
+  .contact-info {
+    gap: 20px;
+  }
+
+  .left-section,
+  .right-section {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .skills .skill {
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+}

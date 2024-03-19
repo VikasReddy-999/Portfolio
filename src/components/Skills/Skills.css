@@ -16,6 +16,10 @@
 }
 
 .skills-container {
+<<<<<<< HEAD
+=======
+  margin-left: 60px;
+>>>>>>> version-2.0-react
   width: 100%;
   display: flex;
   flex-wrap: wrap;
