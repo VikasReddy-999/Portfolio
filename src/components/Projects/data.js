@@ -1,21 +1,6 @@
 export const projectsData = [
   {
     id: 1,
-<<<<<<< HEAD
-    title: "Food Delivering Application",
-    description:
-      "An online platform for food delivery, offering a seamless experience for users to order their favorite meals. Built using ReactJS, HTML, CSS, and JavaScript.",
-    cloneLink: "https://github.com/Mansoor-P/food-delivery-app",
-    liveDemo: "https://mansoorfoodapp.netlify.app/",
-    languages: [
-      { name: "React JS", percentage: "40%" },
-      { name: "HTML", percentage: "20%" },
-      { name: "CSS", percentage: "15%" },
-      { name: "JavaScript", percentage: "25%" },
-    ],
-  },
-
-=======
     title: "Portfolio React",
     description:
       " A responsive showcase of my best works, projects, and passion. Interactive and built with cutting-edge tech, its more than a website—its a journey into my world. Lets connect and build the future together",
@@ -28,7 +13,6 @@ export const projectsData = [
       { name: "React Js", percentage: "50%" },
     ],
   },
->>>>>>> version-2.0-react
   {
     id: 2,
     title: "Job Searching",
@@ -45,18 +29,6 @@ export const projectsData = [
   },
   {
     id: 3,
-<<<<<<< HEAD
-    title: "Portfolio React",
-    description:
-      " A responsive showcase of my best works, projects, and passion. Interactive and built with cutting-edge tech, its more than a website—its a journey into my world. Lets connect and build the future together",
-    cloneLink: "https://github.com/Mansoor-P/responsive-portfolio-2.git",
-    liveDemo: "https://mansoorsportfolio.netlify.app/",
-    languages: [
-      { name: "HTML", percentage: "15%" },
-      { name: "CSS", percentage: "10.2%" },
-      { name: "JS", percentage: "25%" },
-      { name: "React Js", percentage: "50%" },
-=======
     title: "Food Delivering Application",
     description:
       "An online platform for food delivery, offering a seamless experience for users to order their favorite meals. Built using ReactJS, HTML, CSS, and JavaScript.",
@@ -67,7 +39,6 @@ export const projectsData = [
       { name: "HTML", percentage: "20%" },
       { name: "CSS", percentage: "15%" },
       { name: "JavaScript", percentage: "25%" },
->>>>>>> version-2.0-react
     ],
   },
 ];

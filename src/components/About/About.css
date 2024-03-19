@@ -1,23 +1,6 @@
 #about {
   height: 100vh;
   display: flex;
-<<<<<<< HEAD
-  justify-content: center;
-  align-items: center;
-}
-.profile-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border: 4px solid #ddd;
-  border-radius: 50%;
-  margin: 0 auto;
-  margin-bottom: 20px;
-  max-height: 350px;
-}
-.about-content {
-  padding: 20px;
-=======
   justify-content: center; /* Center content horizontally */
   align-items: center;
 }
@@ -25,16 +8,12 @@
 .mt-4 {
   margin-top: 6.5rem !important;
   padding-left: 20px;
->>>>>>> version-2.0-react
 }
 .fs-3 h2 {
   font-size: 50px;
   overflow: hidden;
   border-right: 2px solid #000;
   white-space: nowrap;
-<<<<<<< HEAD
-  animation: typing 3s steps(60, end) 1 forwards;
-=======
   animation: typing 3s steps(60, end) 1 forwards; /* Animation repeats 4 times and stops at the final state */
 }
 
@@ -45,7 +24,6 @@
   to {
     width: 100%;
   }
->>>>>>> version-2.0-react
 }
 
 .fs-3 h2 span {
@@ -58,22 +36,6 @@
     text;
   -webkit-text-fill-color: transparent;
 }
-<<<<<<< HEAD
-.social-icons {
-  height: 60px;
-}
-.social-icons a .icon {
-  width: 40px;
-  height: 50px;
-  margin: 10px 10px 10px 0px;
-  color: rgb(49, 44, 44);
-}
-@media (max-width: 768px) {
-  .about-content,
-  .profile-image {
-    text-align: start;
-    margin: auto;
-=======
 .profile-image {
   max-width: 100%;
   height: auto;
@@ -91,6 +53,5 @@
 @media (max-width: 768px) {
   .col-md-6 img{
     margin-left: 50px;
->>>>>>> version-2.0-react
   }
 }

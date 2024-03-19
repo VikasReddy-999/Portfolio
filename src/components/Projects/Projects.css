@@ -16,30 +16,21 @@
 .custom-card {
   width: 100%;
   max-width: 600px;
-<<<<<<< HEAD
-}
-=======
   margin-left: 40px;
 }
 
->>>>>>> version-2.0-react
 .badge {
   border: 1px solid rgb(84, 221, 191);
   border-radius: 10px;
   margin-right: 10px;
 }
 
-<<<<<<< HEAD
-=======
 /* Responsive styles */
->>>>>>> version-2.0-react
 @media (min-width: 768px) {
   .custom-card {
     max-width: 800px;
   }
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width: 576px) {
   .custom-card {
@@ -54,4 +45,3 @@
     margin-bottom: 5px;
   }
 }
->>>>>>> version-2.0-react
