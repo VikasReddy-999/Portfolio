@@ -9,7 +9,7 @@ const Aboutme = () => {
         <div className="col-md-4 left ">
           <div className="left-side">
             <div className="profile">
-              <img src="public/assets/aboutr.jpg" alt="Mansoor" />
+              <img src="./assets/aboutr.jpg" alt="Mansoor" />
               <h4>Mansoor Pathikonda</h4>
             </div>
             <div className="profile-summary">
@@ -33,10 +33,18 @@ const Aboutme = () => {
             <div className="resume-header-links">
               <ul>
                 <li>+91 9704039210</li>
-                <li><a href="">mansoorpathikonda@gmail.com</a></li>
-                <li><a href="">LinkedIn</a></li>
-                <li><a href="">GitHub</a></li>
-                <li><a href="">Portfolio</a></li>
+                <li>
+                  <a href="">mansoorpathikonda@gmail.com</a>
+                </li>
+                <li>
+                  <a href="">LinkedIn</a>
+                </li>
+                <li>
+                  <a href="">GitHub</a>
+                </li>
+                <li>
+                  <a href="">Portfolio</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -117,16 +125,17 @@ const Aboutme = () => {
             <h3>Skills</h3>
             <div className="skills">
               <p>
-                <strong>Languages: </strong> <mark>Java</mark> , SQL, HTML/CSS, JavaScript,
-                React.js, Bootstrap, MongoDB
+                <strong>Languages: </strong> <mark>Java</mark> , SQL, HTML/CSS,
+                JavaScript, React.js, Bootstrap, MongoDB
               </p>
             </div>
             <div className="skills">
               <p>
                 {" "}
                 <strong>Course Work: </strong>
-                <mark> DSA – Data structures and Algorithms </mark>, <mark>Linux</mark> , Database Management
-                System, Networking, Operating System, <mark>System Design</mark>, Relational
+                <mark> DSA – Data structures and Algorithms </mark>,{" "}
+                <mark>Linux</mark> , Database Management System, Networking,
+                Operating System, <mark>System Design</mark>, Relational
                 Database, Full stack Development
               </p>
             </div>
@@ -134,7 +143,8 @@ const Aboutme = () => {
               <p>
                 {" "}
                 <strong>Developer Tools: </strong>
-                IntelliJ, Vs-Code, <mark>Figma</mark> , Git, GitHub, My-SQL Workbench
+                IntelliJ, Vs-Code, <mark>Figma</mark> , Git, GitHub, My-SQL
+                Workbench
               </p>
             </div>
           </div>
