@@ -134,9 +134,9 @@ const Aboutme = () => {
                 {" "}
                 <strong>Course Work: </strong>
                 <mark> DSA – Data structures and Algorithms </mark>,{" "}
-                <mark>Linux</mark> , Database Management System, Networking,
-                Operating System, <mark>System Design</mark>, Relational
-                Database, Full stack Development
+                <mark>Linux</mark> , Database Management System,{" "}
+                <mark>System Design</mark>,Networking, Operating System,
+                Relational Database, Full stack Development
               </p>
             </div>
             <div className="skills">
