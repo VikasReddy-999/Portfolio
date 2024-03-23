@@ -6,7 +6,7 @@ const projects = [
     timeframe: "Feb 2024 - Present",
     description:
       "Developed a food delivery app with authentication, order tracking, payment integration, and API data integration. Ensured optimal user experience with responsive design.",
-    liveDemoLink: "Live Demo Link Here",
+    liveDemoLink: "https://mansoorfoodapp.netlify.app/",
   },
   {
     name: "Job Searching Portal",
@@ -14,7 +14,7 @@ const projects = [
     timeframe: "Nov 2023 - Jan 2024",
     description:
       "Successfully completed full-stack solution for job searching portal, crafting an intuitive UI with HTML, CSS, and JavaScript for dynamic form interactions, real-time previews, and resume section management.",
-    liveDemoLink: "Live Demo Link Here",
+    liveDemoLink: "https://mj-career.netlify.app/",
   },
   {
     name: "Ecommerce Web App",

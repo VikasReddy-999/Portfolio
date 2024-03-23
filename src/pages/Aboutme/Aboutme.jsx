@@ -37,13 +37,13 @@ const Aboutme = () => {
                   <a href="">mansoorpathikonda@gmail.com</a>
                 </li>
                 <li>
-                  <a href="">LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/MANSOOR0731/">LinkedIn</a>
                 </li>
                 <li>
-                  <a href="">GitHub</a>
+                  <a href="https://github.com/Mansoor-P">GitHub</a>
                 </li>
                 <li>
-                  <a href="">Portfolio</a>
+                  <a href="https://mansoorsportfolio.netlify.app/about">Portfolio</a>
                 </li>
               </ul>
             </div>
