@@ -1,154 +1,179 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
-.home-link {
-  font-size: 30px;
-  text-decoration: none;
-  color: #4a4e51;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+/* Global styles */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
 }
 
-.aboutme-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 100px;
-}
-
-.left-section {
-  flex-basis: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #ffffff;
-  padding: 10px;
-}
-
-.right-section {
-  flex-basis: 50%;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  background-color: #3d3e42;
-  color: white;
-  padding: 10px;
-}
-
-.profile-section,
-.education-section {
-  width: 100%;
-
-  margin: 20px;
+.container-fluid {
   padding: 20px;
 }
 
-.picture-resume-wrapper {
+/* Left section styles */
+.left-side {
+  background-color: #e4d8d8b9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.profile {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.picture-resume img {
-  border-radius: 50%;
-  width: 180px;
-  height: 180px;
-  z-index: -1;
-}
-
-.name-wrapper {
   text-align: center;
-  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
-.name-wrapper h1 {
-  font-family: "Open Sans", sans-serif;
-  color: #4a4e51;
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.profile-summary {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.profile-summary p {
+  line-height: 1.6;
+  color: #333333;
+}
+
+/* Right section styles */
+.right {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.resume-header h1 {
+  text-align: center;
   font-size: 44px;
-  margin: 0;
+  margin-bottom: 10px;
+  color: #333333;
 }
 
-.contact-info {
-  display: flex;
-  justify-content: center;
-  margin: 10px 0;
-  gap: 10px;
+.resume-header-links ul {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center;
 }
 
-.list-titles {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.resume-header-links li {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 16px;
+  color: #333333;
+}
 
+.resume-header-links li:hover {
   cursor: pointer;
+  color: blue;
 }
 
-.list-titles li {
-  font-family: "Open Sans", sans-serif;
-  color: #4a4e51;
-  font-weight: 700;
-  margin-bottom: 5px;
+.professional-summary h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333333;
 }
 
-.contact-presentation p {
-  font-family: "Open Sans", sans-serif;
-  line-height: 1.5em;
-  text-align: justify;
+.professional-summary p {
+  line-height: 1.6;
+  color: #333333;
 }
 
-.education-title {
+.project-item {
   margin-bottom: 20px;
 }
 
-.education-title h2 {
-  color: #66cc99;
+.project-title a {
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
 }
 
-.section-wrapper {
+.education-item {
   margin-bottom: 20px;
-  text-align: justify;
-}
-.skills .skill {
-  margin-right: 10px;
 }
 
-@media screen and (max-width: 768px) {
-  .aboutme-container {
-    flex-direction: column;
-    align-items: center;
-    width: 850px;
-    margin: 20px;
-    padding: 20px;
+.education-title h5 span {
+  color: #333333;
+}
+
+.skills p mark {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(166, 95, 233, 0.537);
+}
+
+.skills p strong {
+  font-size: 16px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .profile img {
+    width: 150px;
+    height: 150px;
   }
 
-  .left-section,
-  .right-section {
-    flex-basis: 100%;
-  }
-  .right-section {
-    text-align: justify;
+  .resume-header h1 {
+    font-size: 36px;
   }
 
-  .profile-section,
-  .education-section {
-    max-width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-  }
-  .picture-resume-wrapper {
-    flex-direction: column;
+  .resume-header-links li {
+    font-size: 14px;
   }
 
-  .contact-info {
-    gap: 20px;
+  .professional-summary h3 {
+    font-size: 18px;
   }
 
-  .left-section,
-  .right-section {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  .project-title a {
+    font-size: 18px;
   }
-  .skills .skill {
-    margin-right: 10px; /* Adjust the margin as needed */
+
+  .education-title h5 {
+    font-size: 18px;
+  }
+
+  .skills p strong {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .profile img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .resume-header h1 {
+    font-size: 28px;
+  }
+
+  .resume-header-links li {
+    font-size: 12px;
+  }
+
+  .professional-summary h3 {
+    font-size: 16px;
+  }
+
+  .project-title a {
+    font-size: 16px;
+  }
+
+  .education-title h5 {
+    font-size: 16px;
+  }
+
+  .skills p strong {
+    font-size: 12px;
   }
 }
