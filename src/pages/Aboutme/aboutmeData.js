@@ -22,7 +22,7 @@ const projects = [
     timeframe: "Jul 2023 - Sep 2023",
     description:
       "Hands-on experience in developing end-to-end e-commerce solutions, including user authentication, product catalog management, shopping cart functionality, and secure payment gateways integration. Proficient in writing clean and maintainable code following best practices and design patterns.",
-    liveDemoLink: "Live Demo Link Here",
+   
   },
 ];
 
