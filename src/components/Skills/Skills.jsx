@@ -61,7 +61,7 @@ function Skills() {
               {category.skills.map((skill, skillIndex) => (
                 <div key={skillIndex} className="skill-item">
                   <img
-                      src="../assets/checkmark.png"
+                      src="../public/assets/checkmark.png"
                       alt="Skills icon"
                       className="skills-icon"
                     />
