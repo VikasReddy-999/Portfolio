@@ -29,7 +29,7 @@ function About() {
               <div className="social-icons mt-auto">
                 <a
                   className="btn btn-outline-dark btn-lg mb-3"
-                  href="../public/assets/MANSOOR_P.pdf"
+                  href="../assets/MANSOOR_P.pdf"
                 >
                   Resume
                 </a>
