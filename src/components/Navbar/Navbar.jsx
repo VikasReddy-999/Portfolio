@@ -4,7 +4,6 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const navLinks = [
-    { id: 1, to: "/", text: "Home" },
     { id: 2, to: "/about", text: "About" },
     { id: 3, href: "#skills", text: "Skills" },
     { id: 4, href: "#projects", text: "Projects" },

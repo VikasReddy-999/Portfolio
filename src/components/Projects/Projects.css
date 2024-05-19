@@ -9,14 +9,15 @@
 .projects-heading {
   text-align: center;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 2rem;
   margin-bottom: 16px;
 }
 
 .custom-card {
   width: 100%;
   max-width: 600px;
-  margin-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .badge {
@@ -25,7 +26,6 @@
   margin-right: 10px;
 }
 
-/* Responsive styles */
 @media (min-width: 768px) {
   .custom-card {
     max-width: 800px;

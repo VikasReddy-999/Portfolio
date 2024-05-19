@@ -59,6 +59,62 @@ const Aboutme = () => {
             </p>
           </div>
 
+
+
+
+          <hr />
+          <div className="skills">
+            <h3>Skills</h3>
+            <div className="skills">
+              <p>
+                <strong>Languages: </strong> <mark>Java</mark> , SQL, HTML/CSS,
+                JavaScript, React.js, Bootstrap, MongoDB
+              </p>
+            </div>
+            <div className="skills">
+              <p>
+                {" "}
+                <strong>Course Work: </strong>
+                <mark> DSA – Data structures and Algorithms </mark>,{" "}
+                <mark>Linux</mark> , Database Management System,{" "}
+                <mark>System Design</mark>,Networking, Operating System,
+                Relational Database, Full stack Development
+              </p>
+            </div>
+            <div className="skills">
+              <p>
+                {" "}
+                <strong>Developer Tools: </strong>
+                IntelliJ, Vs-Code, <mark>Figma</mark> , Git, GitHub, My-SQL
+                Workbench
+              </p>
+            </div>
+          </div>
+          <hr />
+          <div className="education">
+            <h3>Education</h3>
+            {education.map((edu, index) => (
+              <div key={index} className="education-item">
+                <div className="row mx-2 ">
+                  <div className="col-10 education-title">
+                    <h5>
+                      {edu.degree}
+                      <span>
+                        {" - "}
+                        {edu.percentage}
+                      </span>
+                    </h5>
+                  </div>
+                  <div className="col-2">
+                    <p> {edu.timeframe}</p>
+                  </div>
+                  <p>
+                    {edu.institution}, {edu.location}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
           <hr />
           <div className="projects">
             <h3>Projects</h3>
@@ -94,60 +150,7 @@ const Aboutme = () => {
             ))}
           </div>
 
-          <hr />
-          <div className="education">
-            <h3>Education</h3>
-            {education.map((edu, index) => (
-              <div key={index} className="education-item">
-                <div className="row mx-2 ">
-                  <div className="col-10 education-title">
-                    <h5>
-                      {edu.degree}
-                      <span>
-                        {" - "}
-                        {edu.percentage}
-                      </span>
-                    </h5>
-                  </div>
-                  <div className="col-2">
-                    <p> {edu.timeframe}</p>
-                  </div>
-                  <p>
-                    {edu.institution}, {edu.location}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
 
-          <hr />
-          <div className="skills">
-            <h3>Skills</h3>
-            <div className="skills">
-              <p>
-                <strong>Languages: </strong> <mark>Java</mark> , SQL, HTML/CSS,
-                JavaScript, React.js, Bootstrap, MongoDB
-              </p>
-            </div>
-            <div className="skills">
-              <p>
-                {" "}
-                <strong>Course Work: </strong>
-                <mark> DSA – Data structures and Algorithms </mark>,{" "}
-                <mark>Linux</mark> , Database Management System,{" "}
-                <mark>System Design</mark>,Networking, Operating System,
-                Relational Database, Full stack Development
-              </p>
-            </div>
-            <div className="skills">
-              <p>
-                {" "}
-                <strong>Developer Tools: </strong>
-                IntelliJ, Vs-Code, <mark>Figma</mark> , Git, GitHub, My-SQL
-                Workbench
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </div>

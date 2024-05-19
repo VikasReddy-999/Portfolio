@@ -11,8 +11,8 @@ const LandingPage = () => {
       <Navbar />
       <About />
       <Skills />
-      <Projects/>
-      <Footer/>
+      <Projects />
+      <Footer />
     </div>
   );
 };

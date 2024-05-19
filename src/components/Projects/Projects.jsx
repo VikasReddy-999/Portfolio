@@ -9,14 +9,14 @@ const LanguageBadge = ({ language }) => (
 );
 
 const ProjectLinkButton = ({ link, text }) => (
-  <a href={link} target="_blank" className="btn btn-outline-secondary mx-2">
+  <a href={link} target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary mx-2">
     <i className="fab fa-github"></i> {text}
   </a>
 );
 
 const Projects = () => {
   return (
-    <div id="projects" className="container">
+    <div id="projects" className="container py-5">
       <h1 className="projects-heading text-center mb-4">Recent Projects</h1>
       <div className="row">
         {projectsData.map((project) => (
@@ -26,10 +26,7 @@ const Projects = () => {
                 <h5 className="card-title">{project.title}</h5>
                 <p className="card-text">{project.description}</p>
                 <div className="d-grid gap-2 d-md-block">
-                  <ProjectLinkButton
-                    link={project.cloneLink}
-                    text="Clone Project"
-                  />
+                  <ProjectLinkButton link={project.cloneLink} text="Clone Project" />
                   <ProjectLinkButton link={project.liveDemo} text="Live Demo" />
                 </div>
                 <hr />
