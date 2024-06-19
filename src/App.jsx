@@ -1,15 +1,20 @@
-import React from "react";
-import "./App.css";
-import { Routes, Route } from "react-router-dom";
-import LandingPage from "./pages/LandingPage";
-import Aboutme from "./pages/Aboutme/Aboutme";
+import './App.css';
+import Contact from './sections/Contact/Contact';
+import Footer from './sections/Footer/Footer';
+import Hero from './sections/Hero/Hero';
+// import Projects from './Projects/Projects';
+import Projects from './sections/Projects/Projects';
+import Skills from './sections/Skills/Skills';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<LandingPage />} />
-      <Route path="/about" element={<Aboutme />} />
-    </Routes>
+    <>
+      <Hero />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
+    </>
   );
 }
 
