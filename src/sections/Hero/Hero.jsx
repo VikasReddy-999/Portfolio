@@ -39,7 +39,7 @@ function Hero() {
           <br />
           Pathikonda
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Full stack Developer</h2>
         <span>
           
           <a href="https://github.com/Mansoor-P" target="_blank">
