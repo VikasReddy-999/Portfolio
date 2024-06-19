@@ -1,20 +1,12 @@
 import React from 'react';
 
-function ProjectCard({ project }) {
-  const { title, description, cloneLink, liveDemo, languages } = project;
-
+function ProjectCard({ src, link, h3, p }) {
   return (
-    <div>
-      <h3>{title}</h3>
-      {/* <p>{description}</p> */}
-      <a href={cloneLink} target="_blank" rel="noopener noreferrer">Clone Link</a>
-      <a href={liveDemo} target="_blank" rel="noopener noreferrer">Live Demo</a>
-      <ul>
-        {languages.map((language, index) => (
-          <li key={index}>{language.name}: {language.percentage}</li>
-        ))}
-      </ul>
-    </div>
+    <a href={link} target="_blank">
+      <img className="hover" src={src} alt={`${h3} logo`} />
+      <h3>{h3}</h3>
+      <p>{p}</p>
+    </a>
   );
 }
 
