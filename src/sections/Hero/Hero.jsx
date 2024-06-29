@@ -41,7 +41,6 @@ function Hero() {
         </h1>
         <h2>Full stack Developer</h2>
         <span>
-          
           <a href="https://github.com/Mansoor-P" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
